@@ -1,1 +1,1 @@
-web: mvn
+web: ./mvnw
