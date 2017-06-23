@@ -26,9 +26,9 @@ spring:
         serialization.indent_output: true
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-         url: jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/heroku_107934e06935171?reconnect=true
-         username: bdc12f5017eaf6
-         password: 5136eeeb
+        url: jdbc:mysql://us-cdbr-iron-east-03.cleardb.net:3306/heroku_107934e06935171?reconnect=true
+        username: bdc12f5017eaf6
+        password: 5136eeeb
         hikari:
             data-source-properties:
                 cachePrepStmts: true
