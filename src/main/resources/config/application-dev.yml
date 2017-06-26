@@ -26,9 +26,9 @@ spring:
         serialization.indent_output: true
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:mysql://us-cdbr-iron-east-03.cleardb.net:3306/heroku_107934e06935171?reconnect=true
-        username: bdc12f5017eaf6
-        password: 5136eeeb
+        url: jdbc:mysql://localhost:3306/textpad?useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: root
+        password: root
         hikari:
             data-source-properties:
                 cachePrepStmts: true
@@ -76,7 +76,7 @@ liquibase:
 #        keyAlias: textpad
 # ===================================================================
 server:
-    port: ${PORT:5000}
+    port: 8080
 
 # ===================================================================
 # JHipster specific properties
